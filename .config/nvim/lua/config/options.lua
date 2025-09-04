@@ -6,6 +6,7 @@
 local opt = vim.opt
 opt.clipboard = "unnamedplus"
 opt.relativenumber = false
+vim.g.snacks_animate = false
 
 -- LazyVim root dir detection
 -- Each entry can be:
@@ -13,5 +14,3 @@ opt.relativenumber = false
 -- * a pattern or array of patterns like `.git` or `lua`.
 -- * a function with signature `function(buf) -> string|string[]`
 vim.g.root_spec = { { ".git" }, "cwd", "lsp" }
-
-vim.g.snacks_animate = false
