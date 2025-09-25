@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/usr/share/oh-my-zsh"
 
+# Path to local bin directory
+export PATH=$PATH:/home/gerrit/.local/bin
+
 # Uncomment the following line if pasting URLs and other text is messed up.
 DISABLE_MAGIC_FUNCTIONS="true"
 
@@ -88,4 +91,4 @@ export FZF_BASE=/usr/share/fzf
 eval "$(/home/gerrit/.local/bin/mise activate zsh)"
 
 # Oh my posh setup
-eval "$(oh-my-posh init zsh --config /home/gerrit/dotfiles-cachyos/.config/oh-my-posh/tokyonight.omp.json)"
+eval "$(oh-my-posh init zsh --config /home/gerrit/dotfiles/.config/oh-my-posh/tokyonight.omp.json)"
