@@ -1,0 +1,8 @@
+[Unit]
+Description=Cosmic Gap Adjuster
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/zsh -ic "cga"
+Environment=HOME=%h
