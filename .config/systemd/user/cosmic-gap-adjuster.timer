@@ -3,8 +3,8 @@ Description=Run Cosmic Gap Adjuster every 5 minutes
 Requires=cosmic-gap-adjuster.service
 
 [Timer]
-OnBootSec=5min
-OnUnitActiveSec=5min
+OnBootSec=1min
+OnUnitActiveSec=1min
 Persistent=true
 
 [Install]
