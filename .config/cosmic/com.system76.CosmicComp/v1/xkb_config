@@ -3,7 +3,7 @@
     model: "",
     layout: "us",
     variant: "",
-    options: None,
+    options: Some(",compose:rwin"),
     repeat_delay: 600,
     repeat_rate: 25,
 )
