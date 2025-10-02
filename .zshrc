@@ -90,6 +90,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 
 export FZF_BASE=/usr/share/fzf
 
+export ZSH_CUSTOM=~/.oh-my-zsh/custom/
 # Mise setup
 eval "$(/home/gerrit/.local/bin/mise activate zsh)"
 
